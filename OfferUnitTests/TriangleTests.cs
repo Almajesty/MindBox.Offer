@@ -1,7 +1,7 @@
-﻿using MindBox.Offer.Classes;
+﻿using MindBox.Task.Classes;
 using Xunit;
 
-namespace MindBox.OfferUnitTests
+namespace MindBox.TaskUnitTests
 {
     public class TriangleTests
     {

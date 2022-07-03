@@ -1,5 +1,5 @@
 
-# MindBox.Offer
+# MindBox.Task
 
 ## Задание 1:
 

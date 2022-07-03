@@ -1,6 +1,6 @@
-﻿using MindBox.Offer.Interfaces;
+﻿using MindBox.Task.Interfaces;
 
-namespace MindBox.Offer.Classes;
+namespace MindBox.Task.Classes;
 
 public abstract class Shape : IAreable
 {

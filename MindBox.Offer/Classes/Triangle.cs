@@ -1,6 +1,6 @@
 ﻿using static System.Math;
 
-namespace MindBox.Offer.Classes;
+namespace MindBox.Task.Classes;
 
 public class Triangle : Shape
 {

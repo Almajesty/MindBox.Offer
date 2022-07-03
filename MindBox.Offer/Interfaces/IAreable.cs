@@ -1,4 +1,4 @@
-﻿namespace MindBox.Offer.Interfaces;
+﻿namespace MindBox.Task.Interfaces;
 
 internal interface IAreable
 {
