@@ -5,6 +5,17 @@ VisualStudioVersion = 17.2.32422.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindBox.Offer", "MindBox.Offer\MindBox.Offer.csproj", "{4C7CB490-58F6-4E14-8433-94F1422DA05D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfferUnitTests", "OfferUnitTests\OfferUnitTests.csproj", "{D16150EE-295A-45E0-8252-E3A5F14AC8DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{B2E180DB-ECF4-4718-B6B8-E135562CCEC0}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{DF9AEAA5-9FE3-4B56-8B06-495BFB540745}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{12384668-3713-439C-BF22-1BCBABB0C1EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +26,17 @@ Global
 		{4C7CB490-58F6-4E14-8433-94F1422DA05D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C7CB490-58F6-4E14-8433-94F1422DA05D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C7CB490-58F6-4E14-8433-94F1422DA05D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16150EE-295A-45E0-8252-E3A5F14AC8DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16150EE-295A-45E0-8252-E3A5F14AC8DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16150EE-295A-45E0-8252-E3A5F14AC8DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16150EE-295A-45E0-8252-E3A5F14AC8DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C7CB490-58F6-4E14-8433-94F1422DA05D} = {DF9AEAA5-9FE3-4B56-8B06-495BFB540745}
+		{D16150EE-295A-45E0-8252-E3A5F14AC8DF} = {12384668-3713-439C-BF22-1BCBABB0C1EF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECDA1449-BD74-4D92-AE69-731C7018FE57}
