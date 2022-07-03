@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MindBox.Offer\MindBox.Task.csproj" />
+    <ProjectReference Include="..\MindBox.Task\MindBox.Task.csproj" />
   </ItemGroup>
 
 </Project>
