@@ -16,7 +16,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{DF9AEAA5-9FE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{12384668-3713-439C-BF22-1BCBABB0C1EF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{7C80E310-6964-4341-81BA-72982A22D498}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLTask", "SQLTask", "{7C80E310-6964-4341-81BA-72982A22D498}"
+	ProjectSection(SolutionItems) = preProject
+		Task2.sql = Task2.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
