@@ -6,24 +6,26 @@ public class Circle : Shape
 {
     private double _radius;
 
-    public double Radius
-    {
-        get { return _radius; }
-        set
-        {
-            if (value <= 0)
-                throw new Exception("Radius must be a positive number");
-            _radius = value;
-        }
-    }
-
     public Circle(double radius)
     {
         Radius = radius;
     }
 
-    public override double Area()
+    public double Radius
     {
-        return PI * Radius * Radius;
+        get { return _radius; }
+        set
+        {
+            if (isNotPositiveRadius(value))
+                throw new Exception("Radius must be a positive number");
+            _radius = value;
+        }
     }
+
+    private bool isNotPositiveRadius(double radius) => 
+        radius <= 0;
+
+    public override double Area() => 
+        PI * Radius * Radius;
+
 }
