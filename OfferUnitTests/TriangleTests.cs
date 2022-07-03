@@ -43,31 +43,31 @@ namespace MindBox.OfferUnitTests
         }
 
         [Fact]
-        public void Triangle_3_2_2_CheckPythTriangle_ReturnFalse()
+        public void Triangle_3_2_2_CheckRightTriangle_ReturnFalse()
         {
             // arrange
             var triangle = new Triangle(3, 2, 2);
             var expected = false;
             // act
-            var result = triangle.CheckPythTriangle();
+            var result = triangle.CheckRightTriangle();
             // assert
             Assert.Equal(expected, result);
         }
 
         [Fact]
-        public void Triangle_3_4_5_CheckPythTriangle_ReturnTrue()
+        public void Triangle_3_4_5_CheckRightTriangle_ReturnTrue()
         {
             // arrange
             var triangle = new Triangle(3, 4, 5);
             var expected = true;
             // act
-            var result = triangle.CheckPythTriangle();
+            var result = triangle.CheckRightTriangle();
             // assert
             Assert.Equal(expected, result);
         }
 
         [Fact]
-        public void Triangle_CheckPythTriangle_6_8_10_GetArea()
+        public void Triangle_CheckRightTriangle_6_8_10_GetArea()
         {
             // arrange
             var triangle = new Triangle(6, 8, 10);

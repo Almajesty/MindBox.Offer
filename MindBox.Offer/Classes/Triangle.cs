@@ -15,7 +15,7 @@ public class Triangle : Shape
         Side3 = s3;
     }
 
-    public bool CheckPythTriangle()
+    public bool CheckRightTriangle()
     {
         // If triangle is right it's sides complete Pythagorean theorem
         return Math.Pow(Side1, 2) == Math.Pow(Side2, 2) + Math.Pow(Side3, 2) ||
